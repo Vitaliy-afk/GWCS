@@ -1,0 +1,17 @@
+.comments {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-left: #353535 3px solid;
+    height: 100%;
+    z-index: 999;
+    background: #1e748b;
+    background: -webkit-gradient(linear, left top, right top, color-stop(12%, #1e748b), color-stop(100%, #001b24), to(#e9e9e9));
+    background: -o-linear-gradient(left, #1e748b 12%, #001b24 100%, #e9e9e9 100%);
+    background: linear-gradient(
+90deg
+, #1e748b 12%, #001b24 100%, #e9e9e9 100%);
+    transition: all .4s;
+    width: 300px;
+    margin-top: 95px;
+}
